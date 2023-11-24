@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th {
+            font-weight: bold;
+            border: 2px solid black;
+        }
+        td{
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <form method="POST" action="test.py">
+        <div>
+            <label for="U">Username:</label>
+            <input id="U" type="text" required placeholder="write your username">
+        </div>
+            <br>
+        <div>
+            <label for="P">password:</label>
+            <input id="P" type="password" required placeholder="write a complex password">
+        </div>
+            <br>
+        <div>
+            <label for="City">City of Employment:</label>
+            <input id="City" type="text" placeholder="write the city name">
+        </div>
+        <br>
+        <div>
+            <label for="web">Web server</label>
+        <select name="Server" id="web" placeholder="Choose a server">
+                <option value="Nginx">Nginx</option>
+                <option value="Caddy">Caddy</option>
+                <option value="LiteSpeed">LiteSpeed</option>
+        </select>
+        </div>
+        <br>
+        <label for="11">Please specify your role: </label>
+        <div>
+            <input id="11" type="radio" value=" Admin " name="role">
+            <label for="11">Admin</label>
+            <br>
+            <input id="22" type="radio" value=" Engineer " name="role">
+            <label for="22">Engineer</label>
+            <br>
+            <input id="33" type="radio" value=" Manager " name="role">
+            <label for="33">Manager</label>
+            <br>
+            <input id="44" type="radio" value=" Guest " name="role">
+            <label for="44">Guest</label>
+        </div>
+        <label for="1">Single Sign-on: </label>
+        <div>
+        <input id="1" type="checkbox" value=" Mail " name="Sign-on">
+        <label for="1">Mail</label>
+        <br>
+        <input id="2" type="checkbox" value=" payroll " name="Sign-on">
+        <label for="2">payroll</label>
+        <br>
+        <input id="3" type="checkbox" value="Self-service " name="Sign-on">
+        <label for="3">Self-service</label>
+        </div>
+        
+        <div>
+            <input type="submit" value="Login">
+        </div>
+        <div>
+            <input type="reset" value="Reset">
+        </div>
+    </form>  
+    
+    <!-- tabble  .......................................... -->
+    <table >
+        <thead>
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Age</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr >
+                <td>Priya</td>
+                <td>Sharma</td>
+                <td>24</td>
+            </tr>
+            <tr>
+                <td>Arun</td>
+                <td>Singh</td>
+                <td>32</td>
+            </tr>
+            <tr>
+                <td>Sam</td>
+                <td>Watson</td>
+                <td>41</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
