@@ -1,0 +1,35 @@
+.title{
+   text-align: center;
+}
+.parent{
+    display: flex;
+    justify-content: space-around;
+    overflow: scroll;
+    height: 600px;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.img{
+    width: 400;
+    height: 400;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 10px;
+    margin-bottom: 20px; 
+    align-content: flex-start;  
+}
+
+.name{
+    
+    margin-bottom: 0px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+.name2{
+    margin-top:0px ;
+}
+.par{
+    color: rgb(125, 123, 123);
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
